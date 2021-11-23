@@ -1,0 +1,49 @@
+h1{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:black;
+text-align: center;
+
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    text-align: center;
+
+}
+
+
+.tart{
+    font-style: italic;
+    color:black
+}
+
+body {
+    background-image: url("floral.jpg");
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+  }
+
+  div.footer{
+    position: absolute,bottom ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(226, 68, 68, 0.801);
+    color:black;
+    text-align: center;
+
+  }
+  
+  img{
+    display: block;
+    margin: 25px 10px;
+
+  }
+
+  p{
+    display:block;
+    width:55%;
+
+  }
