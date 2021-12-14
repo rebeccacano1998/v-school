@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <head>
+     
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+  
+
+    
+
+    <body>
+
+        <div class="info">
+        <header><h1>Coastal Airlines</h1></header>
+
+        <form name="myForm">
+            <input id="first" type="text" placeholder="First Name" required/>
+        </br>
+        </br>
+            <input id="last" type="text" placeholder="Last Name"  required/>
+        </br>
+        </br>
+            <input id ="age" type="number" placeholder="Age" required/>
+        </br>
+        </br>
+
+            Male:<input type="radio" name="gender" value="Male"/>
+            female<input type="radio" name="gender" value="Female"/>
+            Other:<input type="radio" name="gender" value="Other"/>
+
+        </br>
+        </br>  
+
+        Please List your desired Destination:
+        </br>
+        </br>
+            <select name="location">
+                <option value="California">California</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Washington">Washington</option>
+            </select>
+
+        </br>
+        </br> 
+
+        Please list any Dietary Restrictions:
+        </br>
+        </br>
+                Vegan:<input type="checkbox" value="Vegan" name="diet"/>
+                Gluten-Free:<input type="checkbox" value="Gluten-Free" name="diet"/>
+                Dairy-Free:<input type="checkbox" value="Dairy-Free" name="diet"/>
+
+        </br>
+        </br>
+
+        <button id="submit">submit</button>
+
+
+        </form>
+
+
+
+        </div>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,62 @@
+.container{
+    max-width: 400px;
+    margin: 105px auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+
+
+
+}
+
+#display{
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+    padding:16px 8px;
+    font-size:25px;
+
+}
+
+.buttons{
+    display: grid;
+    border-bottom:1px solid rgb(2, 148, 148);
+    border-left:1px solid rgb(2, 148, 148);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top:1px solid rgb(2, 148, 148);
+    border-right:1px solid rgb(2, 148, 148);
+
+
+
+}
+
+/*avoid double borders by applying border top and border right to every div*/
+.buttons > div{
+  border-top:1px solid rgb(2, 148, 148);
+  border-right:1px solid rgb(2, 148, 148);
+
+
+}
+
+.button{
+    border:0.5px solid rgb(2, 148, 148);
+    line-height: 100px;
+    text-align: center;
+    font-size:25px;
+    cursor:pointer; /*makes the numbers clickable*/
+
+
+
+
+}
+
+#equal{
+    background-color: rgb(2, 148, 148);
+    color:white;
+
+
+}
+
+.button:hover{
+background-color: gold;
+color:white;
+transition:0.5s ease-in;
+}
