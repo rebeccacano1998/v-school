@@ -1,0 +1,56 @@
+{
+    "menu": [
+        {   "food category":"appetizer",
+            "item name": "loaded fries",
+            "ingredients":["potatoes","bacon","cheese","ranch"],
+            "description":"Golden crispy fries that are topped with cripsy bacon, melted cheese and with a ranch drizzle" ,
+            "Info": {
+                "Price": 6.50,
+                "Allergens": "Dairy"
+            }
+        },
+        
+        {
+            "food Category":"cold sandwich",
+            "itemName": "roast beef sandwich",
+            "ingredients":["texas toast","roast beef","mayo","tomatoes","lettuce"],
+            "description":"Fresh roastbeef and cheddar cheese between two pieces of thick texas toast",
+            "info": {
+                "price": 10.00,
+                "Allergens": "Dairy"
+            }
+        },
+        {
+            "food category":"hot sandwich",
+            "item Name": "melted meatball sandwich",
+            "ingredients":["marinara sauce","meatballs","mozarella cheese", "garlic bread"] ,
+            "description": "Meatballs with melted mozarella on top placed inbetwen warm buttery garlic bread",
+            "info": {
+                "price": 12.00,
+                "Allergens": "Dairy"
+            }
+        },
+
+        {
+            "food category":"Dessert",
+            "item name": "fudge sunday",
+            "ingredients":["icecream","bananas","chocolate fudge","sprinkles"] ,
+            "description": "Sweet vanilla icecream with bananas, fudge, and sprinkles as a topping",
+            "info": {
+                "price": 8.00,
+                "Allergens": "Dairy"
+            }
+        },
+
+        {
+            "food category":"Drink",
+            "item name": "orange juice",
+            "ingredients": "oranges",
+            "description":"daily freshly squeezed oranges" ,
+            "info": {
+                "alcoholic": 2.50,
+                "Allergens": "None"
+            }
+        }
+    ]
+}
