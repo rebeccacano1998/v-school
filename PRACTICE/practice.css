@@ -1,0 +1,9 @@
+body{
+  
+    /*background: linear-gradient(#e66465, #9198e5);*/
+    background-image: url("fruit.jpg");
+    background-size: cover;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+
+}
